@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Tân Trương Blog </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <a href="Trangchu.html"><img src="picture/logo.jpg" width="200px" height="90px"></a>
+    </div>
+    <ul class="menu">
+        <li>
+            <a href="Trangchu.html">Trang Chủ</a>
+        </li>
+        <li>
+            <a href="">  Đặc Sản</a>
+            <ul class="sub-menu">
+                <li><a href="Khô cá lóc.html">Khô Cá Lóc</a></li>
+                <li><a href="Xoài Cao Lãnh.html">Xoài Cao Lãnh</a></li>
+                <li><a href="Sen Tháp Mười.html">Sen Tháp Mười</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Các điểm đến.html">Các Điểm Đến Nổi Bật</a>
+        </li>
+        <li>
+            <a href="Giới thiệu về Đồng Tháp.html">Giới Thiệu Tỉnh Đồng Tháp</a>
+        </li>
+    </ul>
+        
+    <div class="others">
+        <li><input placeholder="Tìm kiếm" type="text"><i class="fa fa-search"></i></li>
+        <li> <a class="fa fa-user-circle-o" href="Đăng nhập.html"></a></li>
+    </div>
+</header>
+               <!-- Slideshow container -->
+               <div class="banner-container">
+                <div class="banner">
+                  <div class="slide fade">
+                    <a href=""><img src="picture/banner1.png"></a>
+                </div>
+                <div class="slide fade">
+                  <a href=""><img src="picture/banner2.png"></a>
+              </div>
+                <div class="slide fade">
+                <a href=""><img src="picture/banner3.png"></a>
+                </div>
+              </div>
+          
+              <script>
+                var slideIndex = 0;
+               showSlides();
+               
+               function showSlides() {
+                 var slides = document.getElementsByClassName("slide");
+                 for (var i = 0; i < slides.length; i++) {
+                   slides[i].style.display = "none";
+                 }
+                 slideIndex++;
+                 if (slideIndex > slides.length) {
+                   slideIndex = 1;
+                 }
+                 slides[slideIndex - 1].style.display = "block";
+                 setTimeout(showSlides, 3000); // Thay đổi sau mỗi 3 giây
+               }
+               </script>
+          
+              <!-----End Slideshow-->
+ <div class="contact">
+        <div class="headlinecontact">
+            <h2>THÔNG TIN CÁ NHÂN CỦA TÔI</h2>
+        </div>
+        <div class="contentcontact">
+      <p><b>Họ và tên:</b> Trương Nguyễn Nhật Tân</p>
+      <p><b>Giới tính:</b> Nam</p>
+      <p><b>Ngày sinh:</b> 06/02/2003</p>
+      <p><b>Quê quán:</b> Đồng Tháp</p>
+      <img width="200" src="picture/ảnh cv.jpg"/>
+  
+      <div class="headlinecontact">
+            <h2>Sở thích của tôi</h2>
+      </div>
+
+  <p> - Du lịch cùng gia đình.</p>
+  <p> - Xem phim.</p>
+  <p> - Nghe nhạc. </p>
+  <p> - Tụ họp cùng bạn bè.</p>
+
+  <div class="headlinecontact">
+    <h2>Các món ăn mà tôi yêu thích</h2>
+</div>
+    <p> - Cơm tấm.</p>
+    <img src="picture/comtam.jpg">
+    <p> - Gà rán.</p>
+    <img src="picture/garan.jpg">
+    <p> - Bún bò. </p>
+    <img src="picture/bunbo.jpg" width="300px">
+    <div class="headlinecontact">
+        <h2>Động vật mà tôi thích nhất </h2>
+  </div>
+  <p>- Mèo và chó là động vật mà tôi thích nhất!!!</p>
+  <img width="300px" src="https://th.bing.com/th/id/OIP.VvED1cuXcZrXV_4gfYegjwHaEK?rs=1&pid=ImgDetMain"/> 
+  <img width="300px" src="picture/cho.jpg"/> <br/>
+  </div>
+
+  <div class="headlinecontact">
+    <h2>Tính cách của tôi</h2>
+</div>
+
+  <p> - Thân thiện.</p>
+  <p> - Vui vẻ.</p>
+  <p> - Hòa đồng.</p>
+  <p> - Tình cảm.</p>
+</div>
+</div>
+
+
+<!----Fotter-->
+<div id="footer">
+    <div class="box">
+    <p>Xin chào! Đây là Blog cá nhân của Tân Trương muốn giới thiệu với các bạn đến với quê hương Đồng Tháp của tôi. Nơi tôi được sinh ra và lớn lên!!!</p>
+    <p><b><a class="fa fa-phone"></a> Số điện thoại:</b> 0392809607</p>
+    <p><b><a class="fa fa-envelope"></a> Email:</b> fragrantflowershop@gmail.com</p>
+    <p><b><a class="fa fa-home"></a> Địa chỉ:</b> 25/17 Nguyễn Du, phường 7, quận Gò Vấp, TP.Hồ Chí Minh</p>
+    </div>
+    
+    <div class="box">
+    <h3>Nội Dung</h3>
+    <ul class="quick-menu">
+        <div class="item">
+            <a href="Trangchu.html">Trang Chủ</a>
+        </div>
+        <div class="item">
+            <a href="Khô cá lóc.html">Đặc Sản</a>
+        </div>
+        <div class="item">
+            <a href="Các điểm đến.html">Các điểm đến nổi bật</a>
+        </div>
+        <div class="item">
+            <a href="Lan Hồ Điệp.html">Giới thiệu về Đồng Tháp</a>
+        </div><br>
+        <a href="https://www.facebook.com/profile.php?id=100011082423731&mibextid=LQQJ4d" class="fa fa-facebook-square"></a>
+        <a href="https://www.instagram.com/tantruong_623/?fbclid=IwAR2gh8x02U3-X9J_aajmZzui61Z3gXqim5B6SqfEl6_SHW2dc9HhchKeqo0" class="fa fa-instagram"></a>
+        <a class="fa fa-twitter-square"></a>
+    </ul>
+    </div>
+    
+    <div class="box">
+    <h3>Để lại liên hệ cho tôi</h3>
+    <p>Nếu bạn có nhu cầu về với Đồng Tháp thì hãy để lại emaill ngay tại đây để tôi liên hệ với bạn!!!</p>
+    <form action="" onclick="opennhantin()">
+        <input type="text"placeholder="Nhập email của bạn">
+        <button type="button" onclick="nhantin()">Gửi</button>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
